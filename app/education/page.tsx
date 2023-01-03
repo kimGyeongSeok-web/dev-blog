@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import { useEffect, useState } from 'react';
 import { color, CSS_TYPE } from 'styles/styles';
 
-const Skils = () => {
+const Education = () => {
 
   // Hooks
   const [onLoad, setOnLoad] = useState(false);
@@ -21,7 +21,7 @@ const Skils = () => {
         <LoadOnRight width={onLoad ? '0' : '50%'}>
         </LoadOnRight>
       </PageOnLoad>
-      스킬 페이지
+      Education
     </Main>
   )
 }
@@ -71,4 +71,4 @@ const LoadOnRight = styled.div<CSS_TYPE>(
   })
 )
 
-export default Skils;
+export default Education;

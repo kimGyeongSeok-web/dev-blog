@@ -4,12 +4,12 @@ import styled from '@emotion/styled';
 import { useRouter } from 'next/navigation';
 import { ImageElement, color } from "styles/styles";
 
-const SideNavigation = () =>{
+const SideNavigation = () => {
 
   // Hooks
   const router = useRouter();
 
-  return(
+  return (
     <SideNav>
       <LogoWrap>
         <ImageElement
@@ -38,6 +38,7 @@ const SideNav = styled.div({
   flexDirection: 'column',
   justifyContent: 'space-between',
   color: color.White,
+  zIndex: '3'
 })
 const LogoWrap = styled.div({
   width: '96px',

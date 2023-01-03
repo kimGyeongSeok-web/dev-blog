@@ -32,7 +32,11 @@ export type CSS_TYPE = {
   borderBottomRightRadius?: string | number;
   transition?: string;
   transform?: string;
+  animationDirection?: string;
+  clipPath?: string;
   cursor?: string;
+  opacity?: string | number;
+  zIndex?: string | number;
 }
 
 export const globalStyles = (
@@ -120,4 +124,5 @@ export const color = {
   ThumbnailColor: '#CDCDCD',
   PlaceholderColor: '#888888',
   ComponentBackGroundColor: '#444444',
+  PageOnLoadDoorColor: '#242424'
 }

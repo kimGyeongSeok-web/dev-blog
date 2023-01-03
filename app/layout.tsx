@@ -5,7 +5,7 @@ import { color, globalStyles } from "styles/styles";
 import SideNavigation from "src/layout/SideNavigation";
 import Footer from "src/layout/Footer";
 
-const RootLayout = ({ children }: {children: React.ReactNode}) =>{
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html>
       <Head />
