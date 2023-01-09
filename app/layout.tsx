@@ -23,6 +23,8 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
 
 const Body = styled.body({
   backgroundImage: 'url(/images/bg_black.svg)',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
   display: 'flex',
   padding: '24px 36px'
 })
